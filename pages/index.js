@@ -39,7 +39,7 @@ export default function Home() {
             
           </a>
 
-
+         
           <a className={styles.card}>
           <h3>Looks like Maddy is not doing well this morning</h3>
           
@@ -48,8 +48,8 @@ export default function Home() {
             
             <button className={styles.primaryButton}>Approve</button>
             <button className={styles.secondaryButton}>Fire Hung</button>
-            
           </a>
+        
 
           <a className={styles.card}>
           <h3>Looks like Oscar is not doing well this morning</h3>

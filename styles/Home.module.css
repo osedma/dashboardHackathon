@@ -1,6 +1,6 @@
 .container {
   min-height: 112px;
-  padding: 0 0.5rem;
+  padding: 4 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  background-color: #f3f8fe;
+  background-color:#f3f8fe;
 }
 
 .footer {
@@ -57,7 +57,7 @@
 
 .title,
 .description {
-  text-align: center;
+  text-align: left;
 }
 
 .description {
@@ -86,11 +86,11 @@
 
 .card {
   width: 365px;
-  height: 270px;
+  height: 320px;
   left: 334px;
   top: 238px;
   margin: 1rem;
-  flex-basis: 45%;
+  flex-basis:45%;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -99,6 +99,8 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   background-color: #ffffff;
+
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.14);
 }
 
 .card:hover,
