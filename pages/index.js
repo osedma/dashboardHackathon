@@ -19,34 +19,50 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <img src=""/>
-            <h3>Looks like Hung is not doing well this morning</h3>
+          <a className={styles.card}>
+          <h3>Looks like Hung is not doing well this morning</h3>
+            <img src="pics/Hung.png" width="140"/>
             <p>Sick leave - 8 hours</p>
+            
+            <button className={styles.primaryButton}>Approve</button>
+            <button className={styles.secondaryButton}>Fire Hung</button>
+            
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a className={styles.card}>
+          <h3>Looks like Mick is not doing well this morning</h3>
+            <img src="pics/Hung.png" width="140"/>
+            <p>Sick leave - 8 hours</p>
+            
+            <button className={styles.primaryButton}>Approve</button>
+            <button className={styles.secondaryButton}>Fire Hung</button>
+            
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+
+          <a className={styles.card}>
+          <h3>Looks like Maddy is not doing well this morning</h3>
+          
+            <img src="pics/Hung.png" width="140"/>
+            <p>Sick leave - 8 hours</p>
+            
+            <button className={styles.primaryButton}>Approve</button>
+            <button className={styles.secondaryButton}>Fire Hung</button>
+            
           </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a className={styles.card}>
+          <h3>Looks like Oscar is not doing well this morning</h3>
+          <img src="pics/Hung.png" width="140"/>
+          <p>Sick leave - 8 hours</p>
+          <div style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
+            <button className={styles.primaryButton}>Approve</button>
+            <button className={styles.secondaryButton}>Fire Hung</button>
+          </div>
+            
           </a>
+
+         
         </div>
       </main>
 
